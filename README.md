@@ -4,14 +4,14 @@ Public GitHub Releases repository for VATI Media Tools installers.
 
 ## Latest Release
 
-- Version: `v1.14.13`
+- Version: `v1.14.14`
 - Platform: Windows AMD64
-- Installer: [vati-media-tools-amd64-installer.exe](https://github.com/vat2003/vati-media-tools-releases/releases/download/v1.14.13/vati-media-tools-amd64-installer.exe)
-- Checksum: [SHA256SUMS.txt](https://github.com/vat2003/vati-media-tools-releases/releases/download/v1.14.13/SHA256SUMS.txt)
-- Size: 7,384,655 bytes
-- SHA-256: `cfe080b11114ddbf8814ae4903d905bf642a3c6f9d8fa89db31a2e57b191bf6b`
+- Installer: [vati-media-tools-amd64-installer.exe](https://github.com/vat2003/vati-media-tools-releases/releases/download/v1.14.14/vati-media-tools-amd64-installer.exe)
+- Checksum: [SHA256SUMS.txt](https://github.com/vat2003/vati-media-tools-releases/releases/download/v1.14.14/SHA256SUMS.txt)
+- Size: 7,387,626 bytes
+- SHA-256: `67f44d6bb6b13764f427ff3d65e3d391f35bc8d90d88d7cb74604c3f721fe5e2`
 
-Version `v1.14.13` improves Flow-logo contour restoration on native 720p video, processes recognized Flow clips through their final frame automatically, and adds filtered/all bulk retries plus confirmed file deletion. Alpha-first, glyph-local guarded AI avoids replacing a whole square of background. Some frames still need visual review; this is not a guarantee of artifact-free reconstruction. See [release notes](releases/v1.14.13.md).
+Version `v1.14.14` fixes immediate VPS Loop failures on transient Transfer.it/MEGA metadata EOF/network errors with bounded read-only POST retries, backoff, Retry-After and cancellation. Permanent access/quota errors still fail; worker/Range/FFmpeg behavior is unchanged. Verified with a local disconnect simulation, not a guarantee for persistent service/network failure on a live VPS. See [release notes](releases/v1.14.14.md).
 
 Close the previous app and stop active batches/agents before installing. Reprocess original media, not an already damaged output. AI models, runtimes and Video2X resources download only when requested; they are not bundled. Source code, credentials, configuration and user test media are not published in this repository.
 
